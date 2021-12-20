@@ -13,7 +13,91 @@
   <main>
     <section>
       <h1>Main title of the page</h1>
-      <img src="./images/main-image.jpg" alt="Laptop image">
+      <figure>
+        <img src="./images/main-image.jpg" alt="Laptop image">
+        <figcaption>My working tool</figcaption>
+      </figure>
+      
+    </section>
+    <section>
+      <h2>About me</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus corporis ipsum, omnis ut labore hic, deleniti consectetur voluptatum alias molestias eaque dolorem soluta illo! Iusto voluptas quas possimus dicta culpa.</p>
+        <h3>My portfolio</h3>
+        <div>
+          <div>
+            <p>Static website</p>
+            <a href="https://github.com/Irina-abah/how-to-learn" target="_blank">Check it here</a>
+          </div>
+          <div>
+            <p>Responsive website</p>
+            <a className="link" href="https://irina-abah.github.io/russian-travel/index.html" target="_blank">Check it here</a>
+          </div>
+          <div>
+            <p>SPA</p>
+            <a className="link" href="https://github.com/Irina-abah/react-mesto-api-full" target="_blank">Check it here</a>
+          </div>
+        </div>
+      <form name="contact-me" novalidate>
+        <h3>Get information leaftlet about courses</h3>
+        <label for="username">Create username</label>
+        <input 
+          type="text" 
+          id="username"
+          name="username" 
+          placeholder="Your username"
+          minlength="2"
+          maxlength="30" 
+          required 
+        />
+        <label for="password">Create password</label>
+        <input 
+          type="password" 
+          id="password"
+          name="password"
+          placeholder="Password" 
+          minLength="8"
+          required 
+        />
+        <label for="email">Enter your email</label>
+        <input 
+          type="email"
+          id="email"
+          name="email" 
+          placeholder="Email" 
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+          required 
+        />
+        <div>
+          <p>Select a course:</p>
+          <div>
+            <input 
+              type="radio" 
+              id="master" 
+              name="course" 
+              value="master"
+              checked
+            />
+            <label for="master">Master Software</label>
+          </div>
+          <div>
+            <input 
+              type="radio" 
+              id="cyber" 
+              name="course"
+              value="cyber"
+            />
+            <label for="master">Master Cyber</label>
+          </div>
+        </div>
+        <button 
+          name="submit" 
+          aria-label="submit"
+          type="submit"
+        >
+          Send request
+        </button>
+      </form>
+
     </section>
     <section >
       <h2>My favourite food</h2>
@@ -33,8 +117,18 @@
       </ol>
     </section>
     <section>
-      <h2>Wkat made me chose CN</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit earum quia, corporis, enim in consectetur quasi, mollitia rem repellendus quas dolor itaque. Veniam, impedit laudantium ipsa cum maiores temporibus.</p>
+      <h2>What made me chose Code Nation</h2>
+      <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit earum quia, corporis, enim in consectetur quasi, mollitia rem repellendus quas dolor itaque. Veniam, impedit laudantium ipsa cum maiores temporibus.</p>
+        <button 
+          type="button" 
+          name="about" 
+          aria-label="about" 
+          disabled
+        >
+          Find out more about CN
+        </button>
+      </div>
     </section>
     <section>
       <h2>My targets and progress</h2>
@@ -53,7 +147,7 @@
         </li>
         <li>
           <h3>Target 4</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium veritatis ipsa</p>
+          <p contenteditable="true">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium veritatis ipsa</p>
         </li>
       </ul>
       <!-- <table>
@@ -87,6 +181,7 @@
   <footer>
     <a href="https://github.com/Irina-abah" target="_blank">Link to my Portfolio</a>
     <a href="https://www.facebook.com/" target="_blank">Link to my Facebook</a>
+    <a href="mailto:irin.bon@gmail.com">Get in touch with me</a>
   </footer>
 </body>
 </html>
