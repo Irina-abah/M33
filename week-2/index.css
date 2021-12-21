@@ -1,0 +1,96 @@
+@import url(./fonts/fonts.css);
+
+html {
+  scroll-behavior: smooth;
+}
+
+.root {
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  background-color: #FAFAFA;
+  color: #000;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  max-width: 1184px;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: calc(100% - (100px*2));
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu__item {
+  margin-right: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.intro__title {
+  text-align: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.portfolio {
+  max-width: 700px;
+  width: 100%;
+}
+
+.portfolio__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  justify-content: center;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.button_type_submit {
+  width: 150px;
+}

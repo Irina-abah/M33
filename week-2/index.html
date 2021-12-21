@@ -6,38 +6,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="Learning, Code Nation, HTML, CSS, student">
   <meta name="author" content="Iryna Abah">
+  <link rel="stylesheet" href="./index.css">
   <title>First lessons of HTML/CSS</title>
 </head>
-<body>
-  <header></header>
-  <main>
-    <section>
-      <h1>Main title of the page</h1>
+<body class="root">
+  <header class="header">
+    <img class="logo" src="./images/Logo.jpg" alt="Logo of Iryna Abah">
+      <ul class="menu">
+        <li class="menu__item">
+          <a class="link" href="#">Home</a>
+        </li>
+        <li class="menu__item">
+          <a class="link" href="#about">About me</a>
+        </li>
+        <li class="menu__item">
+          <a class="link" href="#progress">My progress</a>
+        </li>
+      </ul>
+  </header>
+  <main class="main">
+    <section class="intro">
+      <h1 class="intro__title">Personal page of Iryna Abah</h1>
       <figure>
         <img src="./images/main-image.jpg" alt="Laptop image">
         <figcaption>My working tool</figcaption>
       </figure>
-      
     </section>
-    <section>
+    <section id="about" class="about">
       <h2>About me</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus corporis ipsum, omnis ut labore hic, deleniti consectetur voluptatum alias molestias eaque dolorem soluta illo! Iusto voluptas quas possimus dicta culpa.</p>
-        <h3>My portfolio</h3>
-        <div>
-          <div>
+        <h3 class="portfolio__title">My portfolio</h3>
+        <div class="portfolio">
+          <div class="portfolio__item">
             <p>Static website</p>
-            <a href="https://github.com/Irina-abah/how-to-learn" target="_blank">Check it here</a>
+            <a class="link" href="https://github.com/Irina-abah/how-to-learn" target="_blank">Check it here</a>
           </div>
-          <div>
+          <div class="portfolio__item">
             <p>Responsive website</p>
-            <a className="link" href="https://irina-abah.github.io/russian-travel/index.html" target="_blank">Check it here</a>
+            <a class="link" href="https://irina-abah.github.io/russian-travel/index.html" target="_blank">Check it here</a>
           </div>
-          <div>
+          <div class="portfolio__item">
             <p>SPA</p>
-            <a className="link" href="https://github.com/Irina-abah/react-mesto-api-full" target="_blank">Check it here</a>
+            <a class="link" href="https://github.com/Irina-abah/react-mesto-api-full" target="_blank">Check it here</a>
           </div>
         </div>
-      <form name="contact-me" novalidate>
+      <form class="form" name="contact-me" novalidate>
         <h3>Get information leaftlet about courses</h3>
         <label for="username">Create username</label>
         <input 
@@ -90,6 +103,7 @@
           </div>
         </div>
         <button 
+          class="button_type_submit"
           name="submit" 
           aria-label="submit"
           type="submit"
@@ -130,7 +144,7 @@
         </button>
       </div>
     </section>
-    <section>
+    <section id="progress">
       <h2>My targets and progress</h2>
       <ul>
         <li>
