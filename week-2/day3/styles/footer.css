@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  font-size: 13px;
+}
+
+.footer__social {
+  width: 20px;
+  height: 20px;
+  padding: 0 6px;
+}
+
+.footer__link {
+  padding: 0 4px;
+  text-decoration: none;
+  color: #1A355B;
+  margin: 0;
+}
+
+.footer__link:first-child {
+  border-right: 1px solid black;
+}
+
+.footer__links {
+display: flex;
+
+}

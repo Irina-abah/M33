@@ -1,0 +1,21 @@
+@import url(./vendor/normalize.css);
+@import url(./fonts/fonts.css);
+@import url(./styles/header.css);
+@import url(./styles/footer.css);
+@import url(./styles/banner.css);
+
+.root {
+  max-width: 1280px;
+  /* width: calc(100% - 20px*2); */
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0 auto;
+  color: #1A355B;
+  box-sizing: border-box;
+  font-family: 'Inter', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
