@@ -3,6 +3,8 @@
 @import url(./styles/header.css);
 @import url(./styles/footer.css);
 @import url(./styles/banner.css);
+@import url(./styles/about.css);
+@import url(./styles/media.css);
 
 .root {
   max-width: 1280px;
@@ -12,7 +14,9 @@
   margin: 0 auto;
   color: #1A355B;
   box-sizing: border-box;
-  font-family: 'Inter', 'Arial', sans-serif;
+  font-family: 'Work Sans', 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;

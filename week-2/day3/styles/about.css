@@ -1,0 +1,27 @@
+.about {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+  gap: 100px;
+  padding: 33px 2% 23px;
+  margin: 0 auto;
+}
+
+.section__link {
+  text-decoration: none;
+  color: #b88216;
+  font-size: 35px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.section__title {
+  margin: 36px 0 12px;
+}
+
+.section__description {
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.9;
+  letter-spacing: 1px;
+}
