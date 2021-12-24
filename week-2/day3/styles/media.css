@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
   gap: 100px;
-  padding: 33px 2% 23px;
+  padding: 0 2% 23px;
   margin: 0 auto;
 }
 
@@ -11,4 +11,27 @@
   font-weight: 700;
   line-height: 1.5;
   margin-bottom: 0;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.media__arrow {
+  min-width: 440px;
+  width: 100%;
+}
+
+.media__description {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  margin: 18px 0 0;
+  max-height: 54px;
+  height: 100%;
+}
+
+.media__news-item {
+  max-height: 145px;
+  height: 100%;
+  margin-bottom: 10px;
 }

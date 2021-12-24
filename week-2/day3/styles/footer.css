@@ -4,6 +4,9 @@
   justify-content: start;
   align-items: center;
   font-size: 13px;
+  font-weight: 300;
+  line-height: 1.5;
+  padding: 31px 2% 31px;
 }
 
 .footer__social {
@@ -24,6 +27,5 @@
 }
 
 .footer__links {
-display: flex;
-
+  display: flex;
 }
