@@ -57,7 +57,7 @@ ul li:hover > ul, ul li:hover > div, ul li ul:hover, ul li ul li:hover > p {
 
 .header__menu-item {
   margin-right: 6px;
-  padding: 0 0 0 18px;
+  padding: 30px 0 0 18px;
   letter-spacing: 0;
 }
 
@@ -89,14 +89,4 @@ ul li:hover > ul, ul li:hover > div, ul li ul:hover, ul li ul li:hover > p {
   margin: 0;
   z-index: 10;
   padding: 15px 0 0;
-}
-
-.dropdown__menu-item:hover {
-  background: #AEED59;
-  transition-duration: .8s;
-}
-
-.menu__icon {
-  /* rotate: 90deg; */
-  font-size: 14px;
 }
