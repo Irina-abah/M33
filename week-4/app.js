@@ -1,27 +1,37 @@
-class Caterpillar {
-  constructor(name, length, legs) {
-    this.name = name;
-    this.length = length;
-    this.legs = legs;
-    this.hunger = 20;
-  }
+// class Caterpillar {
+//   constructor(name, legs) {
+//     this.name = name;
+//     this.legs = legs;
+//     this.hunger = 20;
+//   }
 
-  hungry() {
-    console.log(`${this.name} wants some food!`);
-  }
+//   hungry() {
+//     console.log(`${this.name} wants some food!`);
+//     this.hunger++;
+//   }
 
-  eating() {
-    this.hunger--;
-    this.length++
-    console.log(`${this.name} is eating some nice food`);
-  }
-}
+//   eating() {
+//     console.log(`${this.name} is eating some nice food`);
+//     this.hunger--;
+//   }
+// }
 
-const hungryCaterpillar = new Caterpillar("Mike", 10, 20)
+// const hungryCaterpillar = new Caterpillar("Mike", 10, 20)
 
-console.log(hungryCaterpillar.eating());
+// console.log(hungryCaterpillar);
+// console.log(hungryCaterpillar.hungry());
 
+// activity for global scope
 
+const five = 5;
+const seven = 7;
+
+const newNumber = () => {
+  const number = five * seven;
+  return number;
+};
+
+console.log(newNumber())
 
 
 // class Dog {
